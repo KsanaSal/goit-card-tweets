@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/goit-card-tweets/static/css/main.c453ab32.css",
-    "main.js": "/goit-card-tweets/static/js/main.f3b93175.js",
+    "main.css": "/goit-card-tweets/static/css/main.4d2ed491.css",
+    "main.js": "/goit-card-tweets/static/js/main.92064740.js",
     "static/js/787.c3a26485.chunk.js": "/goit-card-tweets/static/js/787.c3a26485.chunk.js",
     "static/media/thick_question.png": "/goit-card-tweets/static/media/thick_question.032662a2a907475127d7.png",
     "index.html": "/goit-card-tweets/index.html",
-    "main.c453ab32.css.map": "/goit-card-tweets/static/css/main.c453ab32.css.map",
-    "main.f3b93175.js.map": "/goit-card-tweets/static/js/main.f3b93175.js.map",
+    "main.4d2ed491.css.map": "/goit-card-tweets/static/css/main.4d2ed491.css.map",
+    "main.92064740.js.map": "/goit-card-tweets/static/js/main.92064740.js.map",
     "787.c3a26485.chunk.js.map": "/goit-card-tweets/static/js/787.c3a26485.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c453ab32.css",
-    "static/js/main.f3b93175.js"
+    "static/css/main.4d2ed491.css",
+    "static/js/main.92064740.js"
   ]
 }
