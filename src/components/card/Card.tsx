@@ -2,7 +2,6 @@ import css from "./Card.module.css";
 import logo from "../../assets/images/Logo.png";
 import thickQuestion from "../../assets/images/thick_question.png";
 import { useEffect, useState } from "react";
-import img from "../../assets/avatar/wolf.png";
 
 const Card = ({ info }: any) => {
     const [follow, setFollow] = useState(false);
