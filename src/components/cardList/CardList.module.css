@@ -1,0 +1,24 @@
+.wrapList {
+    display: grid;
+    padding: 20px 0;
+    gap: 10px;
+}
+@media screen and (min-width: 768px) {
+    .wrapList {
+        padding: 24px 8px;
+        grid-template-columns: repeat(2, minmax(380px, 1fr));
+        justify-items: center;
+        gap: 16px 0;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .wrapList {
+        padding: 32px 10px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .wrapList {
+        padding: 32px 10px;
+        grid-template-columns: repeat(3, minmax(380px, 1fr));
+    }
+}

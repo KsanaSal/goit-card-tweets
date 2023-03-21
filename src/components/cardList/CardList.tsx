@@ -1,9 +1,9 @@
 import Card from "../card/Card";
+import css from "./CardList.module.css";
 
 const CardList = ({ cardList }: any) => {
-    console.log(cardList);
     return (
-        <ul>
+        <ul className={css.wrapList}>
             {cardList &&
                 cardList.map((card: any) => (
                     <li key={card.id}>

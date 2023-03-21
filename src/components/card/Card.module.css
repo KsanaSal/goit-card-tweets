@@ -1,7 +1,6 @@
 .wrapCard {
     position: relative;
-    margin: 100px auto;
-    width: 380px;
+    width: 320px;
     height: 460px;
     border-radius: 20px;
     background: linear-gradient(
@@ -12,6 +11,11 @@
     );
     box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
 }
+@media screen and (min-width: 1024px) {
+    .wrapCard {
+        width: 380px;
+    }
+}
 
 .logo {
     position: absolute;
@@ -21,8 +25,9 @@
 
 .image {
     position: absolute;
-    left: 36px;
     top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .line {
@@ -42,7 +47,8 @@
     align-items: center;
     position: relative;
     top: 178px;
-    left: 150px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 80px;
     height: 80px;
     background: #ebd8ff;
@@ -50,42 +56,27 @@
         inset 0px -2.19582px 4.39163px #ae7be3,
         inset 0px 4.39163px 3.29372px #fbf8ff;
     border-radius: 50%;
-    /* border: 5px solid #ebd8ff; */
 }
 
-/* .wrapPhoto::before {
-    content: "";
-    position: absolute;
-    left: -150px;
-    top: 40px;
-    display: block;
-    width: 151px;
-    height: 8px;
-    background: #ebd8ff;
-    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
-        inset 0px -1.71846px 3.43693px #ae7be3,
-        inset 0px 3.43693px 2.5777px #fbf8ff;
-} */
-
-/* .wrapPhoto::after {
-    content: "";
-    position: absolute;
-    left: 79px;
-    top: 40px;
-    display: block;
-    width: 151px;
-    height: 8px;
-    background: #ebd8ff;
-    box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
-        inset 0px -2.19582px 4.39163px #ae7be3,
-        inset 0px 4.39163px 3.29372px #fbf8ff;
-} */
+.wrapAvatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5736a3;
+    overflow: hidden;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
 
 .wrapText {
     position: absolute;
     top: 284px;
     left: 50%;
     transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .text {

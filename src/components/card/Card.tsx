@@ -1,8 +1,8 @@
-// import Button from "../button/Button";
 import css from "./Card.module.css";
 import logo from "../../assets/images/Logo.png";
 import thickQuestion from "../../assets/images/thick_question.png";
 import { useEffect, useState } from "react";
+import img from "../../assets/avatar/wolf.png";
 
 const Card = ({ info }: any) => {
     const [follow, setFollow] = useState(false);
@@ -10,18 +10,28 @@ const Card = ({ info }: any) => {
 
     useEffect(() => {
         setCountFollowers(info.followers);
+        const getInfo = localStorage.getItem(`${info.user}+${info.id}`);
+        if (getInfo) {
+            const parsedInfo = JSON.parse(getInfo);
+            setFollow(parsedInfo.follow);
+            setCountFollowers(parsedInfo.followers);
+        }
     }, [info]);
 
     const handleClick = (e: any) => {
         setFollow(!follow);
+        let newCountFollowers = 0;
         if (follow) {
-            setCountFollowers(countFollowers - 1);
+            newCountFollowers = countFollowers - 1;
         } else {
-            setCountFollowers(countFollowers + 1);
+            newCountFollowers = countFollowers + 1;
         }
-        console.log(e);
+        setCountFollowers(newCountFollowers);
+        localStorage.setItem(
+            `${info.user}+${info.id}`,
+            JSON.stringify({ followers: newCountFollowers, follow: !follow })
+        );
     };
-    console.log(info);
 
     return (
         <div className={css.wrapCard}>
@@ -33,7 +43,12 @@ const Card = ({ info }: any) => {
             />
             <div className={css.line}></div>
             <div className={css.wrapPhoto}>
-                <img src={info.avatar} alt="Avatar" />
+                <div className={css.wrapAvatar}>
+                    <img
+                        src={require(`../../assets/avatar/${info.avatar}.png`)}
+                        alt="Avatar"
+                    />
+                </div>
             </div>
             <div className={css.wrapText}>
                 <p className={css.text}>
@@ -46,7 +61,6 @@ const Card = ({ info }: any) => {
                     </span>
                     followers
                 </p>
-                {/* <Button click={info} test={test} /> */}
                 <button
                     type="button"
                     className={`${css.button} ${follow ? css.buttonClick : ""}`}

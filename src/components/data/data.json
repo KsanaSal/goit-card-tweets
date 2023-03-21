@@ -3,19 +3,40 @@
 "user":"Oleksandr Salivon",
 "tweets": 777,
 "followers": 100500,
-"avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png"
+"avatar": "monkey"
 },
 {
     "id":2,
     "user":"Ksana Swan",
     "tweets": 888,
     "followers": 100700,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png"
+    "avatar": "wolf"
     },
     {
         "id":3,
         "user":"Marta Green",
         "tweets": 999,
         "followers": 100900,
-        "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png"
-        }]}
+        "avatar": "owl"
+        },
+        {
+            "id":4,
+            "user":"Max Dream",
+            "tweets": 555,
+            "followers": 100700,
+            "avatar": "bear"
+            },
+            {
+                "id":5,
+                "user":"David Menisota",
+                "tweets": 444,
+                "followers": 100400,
+                "avatar": "dog-mops"
+                },
+                {
+                    "id":6,
+                    "user":"Lyli Navaho",
+                    "tweets": 123,
+                    "followers": 100300,
+                    "avatar": "owl"
+                    }]}
