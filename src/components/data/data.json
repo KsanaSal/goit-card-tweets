@@ -1,7 +1,21 @@
 {"users":[{
 "id":1,
-"user":"Elon Reeve Musk",
+"user":"Oleksandr Salivon",
 "tweets": 777,
 "followers": 100500,
-"avatar": "url.jpg"
-}]}
+"avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png"
+},
+{
+    "id":2,
+    "user":"Ksana Swan",
+    "tweets": 888,
+    "followers": 100700,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png"
+    },
+    {
+        "id":3,
+        "user":"Marta Green",
+        "tweets": 999,
+        "followers": 100900,
+        "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png"
+        }]}

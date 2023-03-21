@@ -1,12 +1,13 @@
 import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
-import Card from "./components/card/Card";
+import users from "./components/data/data.json";
+import CardList from "./components/cardList/CardList";
 
 function App() {
     return (
         <div>
-            <Card />
+            <CardList cardList={users.users} />
         </div>
     );
 }
