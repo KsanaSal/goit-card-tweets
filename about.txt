@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Condiment
+- Font Author: Copyright (c) 2010 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2010 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name "Condiment"
+- Font Source: http://fonts.gstatic.com/s/condiment/v20/pONk1hggFNmwvXALyH6Sq4n4o1vyCQ.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
