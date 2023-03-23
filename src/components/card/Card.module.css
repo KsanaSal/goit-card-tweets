@@ -1,6 +1,6 @@
 .wrapCard {
     position: relative;
-    width: 320px;
+    width: 312px;
     height: 460px;
     border-radius: 20px;
     background: linear-gradient(
@@ -11,7 +11,17 @@
     );
     box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
 }
+@media screen and (min-width: 768px) {
+    .wrapCard {
+        width: 340px;
+    }
+}
 @media screen and (min-width: 1024px) {
+    .wrapCard {
+        width: 320px;
+    }
+}
+@media screen and (min-width: 1440px) {
     .wrapCard {
         width: 380px;
     }
@@ -110,8 +120,16 @@
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 20px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #d1a9fe;
 }
 
 .buttonClick {
     background-color: #5cd3a8;
+}
+.buttonClick:hover {
+    background-color: #21805e;
+    color: #d1a9fe;
 }
