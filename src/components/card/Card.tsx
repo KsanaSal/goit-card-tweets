@@ -2,8 +2,9 @@ import css from "./Card.module.css";
 import logo from "../../assets/images/Logo.png";
 import thickQuestion from "../../assets/images/thick_question.png";
 import { useEffect, useState } from "react";
+import { User } from "../../interface/users.interface";
 
-const Card = ({ info }: any) => {
+const Card = ({ info }: { info: User }) => {
     const [follow, setFollow] = useState(false);
     const [countFollowers, setCountFollowers] = useState(0);
 
@@ -17,7 +18,7 @@ const Card = ({ info }: any) => {
         }
     }, [info]);
 
-    const handleClick = (e: any) => {
+    const handleClick = () => {
         setFollow(!follow);
         let newCountFollowers = 0;
         if (follow) {
@@ -63,7 +64,7 @@ const Card = ({ info }: any) => {
                 <button
                     type="button"
                     className={`${css.button} ${follow ? css.buttonClick : ""}`}
-                    onClick={() => handleClick(info.id)}
+                    onClick={() => handleClick()}
                 >
                     {follow ? "Following" : "Follow"}
                 </button>
