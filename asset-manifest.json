@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/goit-card-tweets/static/css/main.9aaf7c2d.css",
-    "main.js": "/goit-card-tweets/static/js/main.92064740.js",
+    "main.js": "/goit-card-tweets/static/js/main.c27e3633.js",
     "static/js/787.c3a26485.chunk.js": "/goit-card-tweets/static/js/787.c3a26485.chunk.js",
     "static/media/thick_question.png": "/goit-card-tweets/static/media/thick_question.032662a2a907475127d7.png",
     "index.html": "/goit-card-tweets/index.html",
     "main.9aaf7c2d.css.map": "/goit-card-tweets/static/css/main.9aaf7c2d.css.map",
-    "main.92064740.js.map": "/goit-card-tweets/static/js/main.92064740.js.map",
+    "main.c27e3633.js.map": "/goit-card-tweets/static/js/main.c27e3633.js.map",
     "787.c3a26485.chunk.js.map": "/goit-card-tweets/static/js/787.c3a26485.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9aaf7c2d.css",
-    "static/js/main.92064740.js"
+    "static/js/main.c27e3633.js"
   ]
 }
